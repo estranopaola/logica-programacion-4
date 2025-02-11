@@ -11,28 +11,28 @@ body {
 .container {
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(164, 29, 29, 0.1);
     padding: 30px;
     text-align: center;
     width: 300px;
 }
 
 h1 {
-    color: #333;
+    color: #4e8619;
 }
 
 input {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 2px solid #ddd;
+    border: 2px solid #4e8619;
     border-radius: 5px;
     font-size: 16px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #4e8619;
     color: white;
     border: none;
     border-radius: 5px;
@@ -41,7 +41,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #69b620;
 }
 
 .result {
@@ -51,6 +51,6 @@ button:hover {
 }
 
 .error {
-    color: red;
+    color: rgb(255, 3, 3);
     margin-top: 20px;
 }
