@@ -1,8 +1,8 @@
-// Función para calcular la serie de Fibonacci
+
 function calcularFibonacci(n) {
-    let fib = [0, 1];  // Primeros dos números de la serie
+    let fib = [0, 1];  
     for (let i = 2; i < n; i++) {
-        fib.push(fib[i - 1] + fib[i - 2]); // Agrega el siguiente número en la serie
+        fib.push(fib[i - 1] + fib[i - 2]); 
     }
     return fib;
 }
